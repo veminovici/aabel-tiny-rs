@@ -1,0 +1,14 @@
+[package]
+name = "aabel-tiny"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.5"
+serde = { version = "1.0", features = ["derive"] }
+sha256 = "1.5.0"
+tokio = { version = "1.0", features = ["full"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+tower = { version = "0.4", features = ["util", "timeout"] }
+tower-http = { version = "0.5.0", features = ["add-extension", "trace"] }
