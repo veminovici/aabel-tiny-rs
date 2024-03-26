@@ -1,6 +1,5 @@
 # Simplee > Aabel > Tiny
 
-[![Crates.io][crates-badge]][crates-url]
 [![CI][ci-badge]][ci-url]
 ![GitHub top language][lang-badge]
 [![License:MIT][license-badge]][license-url]
@@ -29,7 +28,6 @@ curl -v \
 ## About
 > Code designed and written on the beautiful island of [**Saaremaa**][url_estonia], Estonia.
 
-[crates-badge]: https://img.shields.io/crates/v/aabel-tiny-rs.svg
 [crates-url]: https://crates.io/crates/aabel-tiny-rs
 [ci-badge]: https://github.com/veminovici/aabel-tiny-rs/actions/workflows/ci.yml/badge.svg?branch=main
 [ci-url]: https://github.com/veminovici/aabel-tiny-rs/actions/workflows/ci.yml
